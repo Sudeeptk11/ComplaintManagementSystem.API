@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using Serilog;
+using System.Net;
 using System.Text.Json;
 
 namespace ComplaintManagementSystem.API.Middleware
@@ -19,6 +20,7 @@ namespace ComplaintManagementSystem.API.Middleware
             }
             catch (Exception ex) 
             {
+                Log.Error(ex, "Unhandled exception occurred");
                 context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
                 context.Response.ContentType = "application/json";
 

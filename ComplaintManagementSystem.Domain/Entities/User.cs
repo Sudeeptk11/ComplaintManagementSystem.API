@@ -13,6 +13,8 @@ namespace ComplaintManagementSystem.Domain.Entities
         public string Email { get; private set; }
         public string PasswordHash   { get; private set; }
         public string Role { get; private set; }
+        public ICollection<RefreshToken> RefreshTokens { get; private set; }
+
         public User() { }
 
         public User(String fullName, String email, String passwordHash, string role)
@@ -21,6 +23,8 @@ namespace ComplaintManagementSystem.Domain.Entities
             Email = email;
             PasswordHash = passwordHash;
             Role = role;
+
+            RefreshTokens = new List<RefreshToken>();
         }
     }
 }

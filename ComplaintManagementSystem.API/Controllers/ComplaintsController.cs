@@ -1,9 +1,11 @@
 ﻿using ComplaintManagementSystem.Application.DTOs;
 using ComplaintManagementSystem.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ComplaintManagementSystem.API.Controllers
 {
+    [Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class ComplaintsController : ControllerBase

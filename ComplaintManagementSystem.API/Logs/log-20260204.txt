@@ -1,0 +1,345 @@
+2026-02-04 18:17:41.485 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 18:17:41.588 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 18:17:41.721 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 18:17:41.724 +05:30 [INF] Hosting environment: Development
+2026-02-04 18:17:41.726 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 18:17:42.986 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 18:17:43.720 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 747.7348ms
+2026-02-04 18:17:43.724 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 18:17:43.728 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 18:17:43.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 47.5735ms
+2026-02-04 18:17:43.982 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 253.5842ms
+2026-02-04 18:17:44.055 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 18:17:44.080 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.9111ms
+2026-02-04 18:25:15.171 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Complaints - application/json 65
+2026-02-04 18:25:15.256 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 18:25:15.363 +05:30 [INF] Route matched with {action = "Create", controller = "Complaints"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(ComplaintManagementSystem.Application.DTOs.CreateComplaintDto) on controller ComplaintManagementSystem.API.Controllers.ComplaintsController (ComplaintManagementSystem.API).
+2026-02-04 18:25:16.241 +05:30 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2026-02-04 18:25:16.316 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API) in 938.5707ms
+2026-02-04 18:25:16.320 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 18:25:16.327 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Complaints - 400 null application/problem+json; charset=utf-8 1160.6418ms
+2026-02-04 21:30:45.731 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 21:30:45.788 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 21:30:45.880 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 21:30:45.883 +05:30 [INF] Hosting environment: Development
+2026-02-04 21:30:45.886 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 21:30:47.996 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 21:30:48.527 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 21:30:48.527 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 21:30:48.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 549.009ms
+2026-02-04 21:30:48.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 35.5026ms
+2026-02-04 21:30:48.720 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 192.1349ms
+2026-02-04 21:30:48.789 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 21:30:48.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.4065ms
+2026-02-04 21:31:22.285 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Complaints - application/json 61
+2026-02-04 21:31:22.315 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 21:31:22.393 +05:30 [INF] Route matched with {action = "Create", controller = "Complaints"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(ComplaintManagementSystem.Application.DTOs.CreateComplaintDto) on controller ComplaintManagementSystem.API.Controllers.ComplaintsController (ComplaintManagementSystem.API).
+2026-02-04 21:31:23.106 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)
+2026-02-04 21:31:26.404 +05:30 [INF] Executed DbCommand (214ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Complaints] ([CreatedDate], [Description], [Status], [Title], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-02-04 21:31:26.521 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)
+2026-02-04 21:31:26.537 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 21:31:26.558 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API) in 4150.7453ms
+2026-02-04 21:31:26.563 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 21:31:26.589 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Complaints - 200 null application/json; charset=utf-8 4304.1167ms
+2026-02-04 22:31:34.734 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 22:31:35.632 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 22:31:35.636 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 22:31:35.787 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 22:31:35.791 +05:30 [INF] Hosting environment: Development
+2026-02-04 22:31:35.794 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 22:31:36.778 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger - null null
+2026-02-04 22:31:37.247 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger - 301 0 null 485.3527ms
+2026-02-04 22:31:37.261 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 22:31:37.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - null null
+2026-02-04 22:31:37.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - null null
+2026-02-04 22:31:37.513 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - null null
+2026-02-04 22:31:37.529 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 22:31:37.531 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 270.1088ms
+2026-02-04 22:31:37.608 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 79.9836ms
+2026-02-04 22:31:37.620 +05:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-02-04 22:31:37.621 +05:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-02-04 22:31:37.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - 200 152034 text/css 113.0085ms
+2026-02-04 22:31:37.633 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 22:31:37.633 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 120.2844ms
+2026-02-04 22:31:37.707 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-02-04 22:31:37.713 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 200.8711ms
+2026-02-04 22:31:37.780 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 147.775ms
+2026-02-04 22:31:37.913 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 22:31:37.952 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - null null
+2026-02-04 22:31:37.952 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.9628ms
+2026-02-04 22:31:37.963 +05:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-02-04 22:31:37.972 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - 200 628 image/png 21.3038ms
+2026-02-04 22:32:31.460 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 52
+2026-02-04 22:32:31.850 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:32:31.937 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:32:32.095 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:32:41.233 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:32:41.247 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 9298.1484ms
+2026-02-04 22:32:41.252 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:32:41.293 +05:30 [ERR] Unhandled exception occurred
+System.Exception: Invalid credentials
+   at ComplaintManagementSystem.Application.Services.AuthService.Login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.Application\Services\AuthService.cs:line 28
+   at ComplaintManagementSystem.API.Controllers.AuthController.login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Controllers\AuthController.cs:line 21
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ComplaintManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Middleware\ExceptionMiddleware.cs:line 19
+2026-02-04 22:32:41.488 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 500 null application/json 10027.5999ms
+2026-02-04 22:33:11.144 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 52
+2026-02-04 22:33:11.198 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:33:11.202 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:33:11.211 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:33:20.264 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:33:20.271 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 9063.5275ms
+2026-02-04 22:33:20.277 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:33:20.317 +05:30 [ERR] Unhandled exception occurred
+System.Exception: Invalid credentials
+   at ComplaintManagementSystem.Application.Services.AuthService.Login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.Application\Services\AuthService.cs:line 28
+   at ComplaintManagementSystem.API.Controllers.AuthController.login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Controllers\AuthController.cs:line 21
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ComplaintManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Middleware\ExceptionMiddleware.cs:line 19
+2026-02-04 22:33:20.332 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 500 null application/json 9187.9871ms
+2026-02-04 22:33:42.988 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Complaints - application/json 81
+2026-02-04 22:33:43.020 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-02-04 22:33:43.038 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2026-02-04 22:33:43.040 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Complaints - 401 0 null 53.659ms
+2026-02-04 22:42:59.704 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 22:43:00.180 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 22:43:00.184 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 22:43:00.293 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 22:43:00.296 +05:30 [INF] Hosting environment: Development
+2026-02-04 22:43:00.298 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 22:43:00.688 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 22:43:01.062 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 375.6091ms
+2026-02-04 22:43:01.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 22:43:01.067 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 22:43:01.101 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 33.677ms
+2026-02-04 22:43:01.139 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.9892ms
+2026-02-04 22:43:01.309 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 22:43:01.342 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.8182ms
+2026-02-04 22:44:35.570 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 53
+2026-02-04 22:44:35.733 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:44:35.779 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:44:35.872 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:44:43.517 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:44:43.526 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 7738.2326ms
+2026-02-04 22:44:43.528 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:44:43.545 +05:30 [ERR] Unhandled exception occurred
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '208' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at ComplaintManagementSystem.Application.Services.AuthService.Login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.Application\Services\AuthService.cs:line 49
+   at ComplaintManagementSystem.API.Controllers.AuthController.login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Controllers\AuthController.cs:line 21
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ComplaintManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Middleware\ExceptionMiddleware.cs:line 19
+2026-02-04 22:44:43.635 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 500 null application/json 8066.543ms
+2026-02-04 22:47:20.961 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 22:47:21.223 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 22:47:21.224 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 22:47:21.277 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 22:47:21.279 +05:30 [INF] Hosting environment: Development
+2026-02-04 22:47:21.280 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 22:47:22.501 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 22:47:22.812 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 317.9068ms
+2026-02-04 22:47:22.820 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 22:47:22.820 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 22:47:22.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 9.3482ms
+2026-02-04 22:47:22.873 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.5498ms
+2026-02-04 22:47:22.917 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 22:47:22.941 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.793ms
+2026-02-04 22:47:45.417 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 53
+2026-02-04 22:47:45.537 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:47:45.565 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:47:45.631 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:47:45.693 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:47:45.708 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 22:47:45.723 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 146.391ms
+2026-02-04 22:47:45.727 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:47:45.730 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 200 null application/json; charset=utf-8 312.8985ms
+2026-02-04 22:52:05.040 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 22:52:05.287 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 22:52:05.290 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 22:52:05.362 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 22:52:05.366 +05:30 [INF] Hosting environment: Development
+2026-02-04 22:52:05.368 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 22:52:05.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 22:52:06.020 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 289.7088ms
+2026-02-04 22:52:06.038 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 22:52:06.039 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 22:52:06.060 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 21.4653ms
+2026-02-04 22:52:06.095 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.8505ms
+2026-02-04 22:52:06.139 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 22:52:06.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.7038ms
+2026-02-04 22:52:13.522 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 47
+2026-02-04 22:52:13.682 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:52:13.725 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:52:13.818 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:52:30.382 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:52:30.393 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 16656.943ms
+2026-02-04 22:52:30.395 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:52:30.412 +05:30 [ERR] Unhandled exception occurred
+System.Exception: Invalid credentials
+   at ComplaintManagementSystem.Application.Services.AuthService.Login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.Application\Services\AuthService.cs:line 28
+   at ComplaintManagementSystem.API.Controllers.AuthController.login(LoginDto dto) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Controllers\AuthController.cs:line 21
+   at lambda_method3(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at ComplaintManagementSystem.API.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API\Middleware\ExceptionMiddleware.cs:line 19
+2026-02-04 22:52:30.506 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 500 null application/json 16984.833ms
+2026-02-04 22:52:54.230 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 53
+2026-02-04 22:52:54.247 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:52:54.249 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:52:54.256 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:52:54.302 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:52:54.312 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 22:52:54.319 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 64.5929ms
+2026-02-04 22:52:54.323 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:52:54.326 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 200 null application/json; charset=utf-8 97.1283ms
+2026-02-04 22:56:28.424 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 22:56:28.458 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 34.0546ms
+2026-02-04 22:56:28.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/favicon.ico - null null
+2026-02-04 22:56:28.520 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/favicon.ico - 404 0 null 8.7298ms
+2026-02-04 22:56:28.527 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7071/favicon.ico, Response status code: 404
+2026-02-04 22:56:57.191 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 53
+2026-02-04 22:56:57.211 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:56:57.214 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 22:56:57.219 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:56:57.221 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 22:56:57.223 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 22:56:57.226 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 9.6859ms
+2026-02-04 22:56:57.232 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 22:56:57.234 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 200 null application/json; charset=utf-8 43.9767ms
+2026-02-04 23:07:25.161 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 23:07:25.804 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 23:07:25.806 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 23:07:25.923 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 23:07:25.927 +05:30 [INF] Hosting environment: Development
+2026-02-04 23:07:25.929 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 23:07:26.584 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 23:07:27.061 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 484.254ms
+2026-02-04 23:07:27.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 23:07:27.074 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 23:07:27.102 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 28.0779ms
+2026-02-04 23:07:27.183 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 107.7542ms
+2026-02-04 23:07:27.274 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 23:07:27.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.2319ms
+2026-02-04 23:07:51.174 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Auth/login - application/json 53
+2026-02-04 23:07:51.315 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 23:07:51.354 +05:30 [INF] Route matched with {action = "login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult login(ComplaintManagementSystem.Application.DTOs.LoginDto) on controller ComplaintManagementSystem.API.Controllers.AuthController (ComplaintManagementSystem.API).
+2026-02-04 23:07:51.425 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 23:07:51.471 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)
+2026-02-04 23:07:51.479 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 23:07:51.486 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API) in 125.7747ms
+2026-02-04 23:07:51.487 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.AuthController.login (ComplaintManagementSystem.API)'
+2026-02-04 23:07:51.489 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Auth/login - 200 null application/json; charset=utf-8 315.0078ms
+2026-02-04 23:09:47.430 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7071/api/Complaints - application/json 90
+2026-02-04 23:09:47.579 +05:30 [INF] Executing endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 23:09:47.587 +05:30 [INF] Route matched with {action = "Create", controller = "Complaints"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create(ComplaintManagementSystem.Application.DTOs.CreateComplaintDto) on controller ComplaintManagementSystem.API.Controllers.ComplaintsController (ComplaintManagementSystem.API).
+2026-02-04 23:09:47.979 +05:30 [INF] Executing ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)
+2026-02-04 23:09:49.997 +05:30 [INF] Executed DbCommand (130ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Complaints] ([CreatedDate], [Description], [Status], [Title], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-02-04 23:09:50.049 +05:30 [INF] Executed ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)
+2026-02-04 23:09:50.051 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType1`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-02-04 23:09:50.057 +05:30 [INF] Executed action ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API) in 2467.4188ms
+2026-02-04 23:09:50.060 +05:30 [INF] Executed endpoint 'ComplaintManagementSystem.API.Controllers.ComplaintsController.Create (ComplaintManagementSystem.API)'
+2026-02-04 23:09:50.076 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7071/api/Complaints - 200 null application/json; charset=utf-8 2647.5908ms
+2026-02-04 23:58:50.568 +05:30 [INF] Executed DbCommand (181ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2026-02-04 23:58:51.294 +05:30 [INF] Executed DbCommand (136ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([CreatedDate], [Email], [FullName], [PasswordHash], [Role])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+2026-02-04 23:58:51.807 +05:30 [INF] User profile is available. Using 'C:\Users\sushmitha tk\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-02-04 23:58:52.556 +05:30 [INF] Now listening on: https://localhost:7071
+2026-02-04 23:58:52.561 +05:30 [INF] Now listening on: http://localhost:5162
+2026-02-04 23:58:53.044 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-04 23:58:53.046 +05:30 [INF] Hosting environment: Development
+2026-02-04 23:58:53.048 +05:30 [INF] Content root path: C:\Users\sushmitha tk\source\repos\ComplaintManagementSystem\ComplaintManagementSystem.API
+2026-02-04 23:58:53.542 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - null null
+2026-02-04 23:58:54.193 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - 200 null text/html;charset=utf-8 665.7761ms
+2026-02-04 23:58:54.215 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - null null
+2026-02-04 23:58:54.216 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - null null
+2026-02-04 23:58:54.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - 200 13794 application/javascript; charset=utf-8 122.1525ms
+2026-02-04 23:58:54.406 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - 200 null text/javascript; charset=UTF-8 191.8326ms
+2026-02-04 23:58:54.461 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - null null
+2026-02-04 23:58:54.499 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 40.7896ms
